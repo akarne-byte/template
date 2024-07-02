@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"     />
+
+    <style>
+        .divider{
+
+            position: relative;
+            text-align: center;
+            margin: 15px 0px;
+        }
+
+
+        .divider span{
+
+            padding: 8px;
+            position: relative;
+            z-index: 2;
+            font-size: 18px;
+        }
+
+        .divider::after{
+
+            content: "";
+            position: absolute;
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+            top:50%;
+            left: 0;
+            z-index: 1;
+        }
+
+    </style>
+
+    <title>Create a new account</title>
+  </head>
+  <body>
+
+
+    <!-- Going to start the Sign up design -->
+
+
+    <div class="container" >
+
+        <div class="card bg-light" >
+
+            <div class="card-body mx-auto">
+
+                <h4 class="card-title mt-3 text-center">Create account</h4>
+                <p class="text-center">Get started with a your free account.</p>
+
+                <a href="#!" class="btn btn-block btn-danger">
+                    <i class="fab fa-google margin-10"></i>
+                    Login vai Google</a>
+                <a href="#!" class="btn btn-block btn-primary">
+                        <i class="fab fa-facebook margin-10"></i>
+                        Login vai Facebook</a>
+                 <a href="#!" class="btn btn-block btn-success">
+                            <i class="fab fa-whatsapp"></i>
+                            Login vai whatsapp</a>       
+            
+
+                <p class="divider">
+                    <span class="bg-light">OR</span>
+                </p>
+
+                <!-- Form started -->
+
+                    <form action="#!">
+            <!-- Name field -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fa fa-user"></i>
+                                </div>
+                            </div>
+                            <input type="user" class="form-control" id="exampleInputuser" aria-describedby="userHelp" placeholder="Enter Name" >
+                            
+                          </div>
+
+            <!-- Email field -->
+                        <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                        </div>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" >
+                        
+                    </div>    
+
+            <!-- phone field -->
+                
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                        </div>
+                       <select class="custom-select" style ="max-width: 80px;">
+                            <option>+91</option>
+                            <option>+92</option>
+                            <option>+93</option>
+                        </select>
+
+                        <input type="text" class="form-control" placeholder="Enter Phone">
+
+                    </div>
+
+            <!-- Teacher field -->
+
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fa fa-school"></i>
+                            </div>
+                        </div>
+
+                        <select name="select" id="teacher" class="custom-select">
+                            <option>Teacher</option>
+                            <option>Student</option>
+                            <option>Partent</option>
+
+                        </select>
+
+                    </div>
+
+                <!-- Password field -->
+
+                <div class="form-group input-group">
+
+                    <div class="input input-group-prepend">
+
+                        <span class="input-group-text">
+                            <i class="fa fa-lock"></i>
+                        </span> 
+                    </div>
+
+                    <input type="text" class="form-control" placeholder="Enter Password">
+                </div>
+
+                <!-- ReEnter Password -->
+
+                <div class="form-group input-group">
+
+                    <div class="input input-group-prepend">
+
+                        <span class="input-group-text">
+                            <i class="fa fa-lock"></i>
+                        </span> 
+                    </div>
+
+                    <input type="text" class="form-control" placeholder="ReEnter Password">
+                </div>
+
+                <button type="submit" class="btn btn-block btn-success">Create account</button>
+
+                <button type="reset" class="btn btn-block btn-secondary">Reset</button>
+
+                <p class="text-center mt-4">Have an account?
+                    <a href="login.html">Log In</a>
+                </p>
+                </form>
+                <!-- form ended -->
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

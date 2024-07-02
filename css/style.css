@@ -1,0 +1,57 @@
+
+
+.playwrite-mx-body {
+    font-family: "Playwrite MX", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: cover;
+  }
+
+
+.header{
+
+    height: 90vh;
+    width: 100%;
+    background:linear-gradient(to right, rgb(94, 104, 107), rgba(188, 199, 191, 0.5)),  url(https://media.istockphoto.com/id/649356542/photo/adventurous-people-making-ascent-to-high-mountain-walking-on-glacier.jpg?s=1024x1024&w=is&k=20&c=6sY0JQUAEjSxOKFbz2yVO5rE9k1MpPEUGQ5D_BCJdMk=);
+    color: white;
+    background-size: cover;
+}
+
+.h-100{
+
+    height: 100%;
+    width: 100%;
+}
+
+
+.btn{
+
+    border-radius: 10 rem !important;
+    padding: 1.25rem 2.24rem ;
+}
+
+
+.message{
+
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+
+}
+
+
+.download,.contact,.links,.services, .containerabc{
+
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+
+.myicon{
+
+    font: 80 px;
+}
+
+
+
+
+.reviews{
+
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
